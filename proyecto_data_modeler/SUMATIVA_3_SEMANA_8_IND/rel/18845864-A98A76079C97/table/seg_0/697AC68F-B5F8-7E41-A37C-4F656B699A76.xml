@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="697AC68F-B5F8-7E41-A37C-4F656B699A76" name="INSUMO_TIPO_EQUIPAMIENTO">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TIPO_EQUIPAMIENTO_ID_TIPO_EQUIPAMIENTO" id="974198BC-A127-576A-E93C-B7A0E9477E9C">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14A6EAA8-739C-5732-E0A9-CD4B1C960602" referredColumn="C512C6D4-4ED6-3E16-A303-12F367EFBB9C"/>
+</associations>
+</Column>
+<Column name="TIPO_INSUMO_ID_TIPO_INSUMO" id="8CBF1EE9-9E6C-B144-CDBD-0A9F6B9CF03E">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="245A280C-DBCD-26D0-CE09-5E13F8738D5E" referredColumn="DD2815CC-8DA3-4377-285E-09E188BA8850"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="E4129FE1-67F2-1ECE-E93D-6D5F369A63BB">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>AC6BFF8E-880A-1B94-33BF-90E70BB24B31</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="91DE2F41-F8A4-895D-E6D2-D0923FBAD418" name="INSUMO_TIPO_EQUIPAMIENTO_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="974198BC-A127-576A-E93C-B7A0E9477E9C"/>
+<colUsage columnID="8CBF1EE9-9E6C-B144-CDBD-0A9F6B9CF03E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DDD0395-382C-5D96-2988-787E0F164CA9" name="INSUMO_TIPO_EQUIPAMIENTO_TIPO_EQUIPAMIENTO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>4B01832D-5D89-BA9C-2563-E3BDB2006ABF</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="974198BC-A127-576A-E93C-B7A0E9477E9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD8905AB-B17A-7B1A-14F8-FCC35B982C1E" name="INSUMO_TIPO_EQUIPAMIENTO_TIPO_INSUMO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>4B01832D-5D89-BA9C-2563-E3BDB2006ABF</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8CBF1EE9-9E6C-B144-CDBD-0A9F6B9CF03E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

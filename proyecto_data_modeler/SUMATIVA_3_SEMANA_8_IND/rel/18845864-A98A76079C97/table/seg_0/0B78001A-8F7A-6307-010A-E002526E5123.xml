@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B78001A-8F7A-6307-010A-E002526E5123" name="ESCUELA_DEPORTIVA">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>17F41503-20CA-7C2B-C14A-A843CB829BAF</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESCUELA" id="ACF8B92E-AC03-CC0D-E2A5-EA6315E29E98">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>B1713D23-C226-A278-B4D0-D18DD6A7A59A</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESCUELA" id="080E9909-B8EF-ED26-8F3D-DE7366F113F6">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>0F1171A1-5080-1A74-D487-AD5AF8160293</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="22FC42BB-04A3-8B36-B1C2-7736F759314B">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>D3CB750C-CBCE-94F8-7062-7BC945BA6ECC</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE62834F-C2B4-DE08-EF6C-0632F81DA76F" name="ESCUELA_DEPORTIVA_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>73D86DC3-1565-BF7B-74B2-D4C4F9D5C44D</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACF8B92E-AC03-CC0D-E2A5-EA6315E29E98"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

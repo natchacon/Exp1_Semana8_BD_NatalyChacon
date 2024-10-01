@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="241AAA91-9CAC-A3F7-E718-62D4779E3604" name="PROFESION">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>38D2B59A-0427-329C-1E53-F1BE7F4DF8AF</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROFESION" id="C1E2272C-9F6E-CE94-0712-D8E33B47E9AD">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>17548FD2-BF33-D180-58A8-9629B99239B1</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROFESION" id="0A6E0EAE-0D5F-62FB-C102-D87BAA76F571">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>3A25EEE6-CC8F-0C82-72CD-A3857C1CEAB1</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADO" id="7BADB849-FFA6-C15A-816C-6CEB73AC06B1">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>725E5EEE-BD69-2B89-7643-064AD28961EB</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F15B587D-D34A-744F-BE63-349B094B9D73" name="PROFESION_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>78591B55-8740-FB58-53CA-69B00254AA2F</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1E2272C-9F6E-CE94-0712-D8E33B47E9AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

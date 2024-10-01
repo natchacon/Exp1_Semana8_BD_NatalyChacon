@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E92FC8A3-5A04-4667-4B60-0EE874622118" name="PROFESION_PERSONA">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PERSONA_ID_PERSONA" id="9FC8820E-20E8-E4BD-7060-C36B091B13F0">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E4A641D-4416-C13D-3F63-1CF166624CD3" referredColumn="E1FA2ADD-CFBD-D028-0D5B-DCF0EB85EBC8"/>
+</associations>
+</Column>
+<Column name="PROFESION_ID_PROFESION" id="746C5322-4FDA-BC6E-B7AF-691A4F4B0C49">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16921714-4677-34E6-154F-0F34140480C7" referredColumn="C1E2272C-9F6E-CE94-0712-D8E33B47E9AD"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="CBE784C8-8B6B-ED74-0656-1622BD71D82E">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>F4FD64B6-AB43-8C86-5061-058EB3AE4C89</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="FECHA_TITULACION" id="A5FF9136-3638-AEC3-06F3-9EF7F41BE4B3">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>05328394-B5CE-0A5F-743F-0B4E6D42AC7B</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4ABC4BF2-AA83-7195-9F7F-81FBB55DDF65" name="PROFESION_PERSONA_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FC8820E-20E8-E4BD-7060-C36B091B13F0"/>
+<colUsage columnID="746C5322-4FDA-BC6E-B7AF-691A4F4B0C49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F1D4EF7-0FCF-B08F-2CF5-BDDA63FF0BF9" name="PROFESION_PERSONA_PERSONA_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>5D167E89-4F93-321B-D6FA-FC95180B02D2</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FC8820E-20E8-E4BD-7060-C36B091B13F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC37AF3F-E9AE-8359-185B-B46A8AFB944A" name="PROFESION_PERSONA_PROFESION_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>5D167E89-4F93-321B-D6FA-FC95180B02D2</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="746C5322-4FDA-BC6E-B7AF-691A4F4B0C49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

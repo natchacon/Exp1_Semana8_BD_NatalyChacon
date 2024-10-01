@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ESCUELA_PERSONAL" directorySegmentName="seg_0" id="FCCAA098-97D0-0FFF-5562-CAEB60869868">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:42:42 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<sourcePk>73D86DC3-1565-BF7B-74B2-D4C4F9D5C44D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>17F41503-20CA-7C2B-C14A-A843CB829BAF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>59866CB9-C786-FAA9-826C-EFB4D2046A15</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

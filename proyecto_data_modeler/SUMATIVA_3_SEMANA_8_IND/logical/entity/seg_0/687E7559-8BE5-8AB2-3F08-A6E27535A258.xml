@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="687E7559-8BE5-8AB2-3F08-A6E27535A258" name="PERSONA">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:49:56 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PERSONA" id="E80CB2E2-210B-7AD2-A167-9FDE9E242F79">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:50:11 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,0,10</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDENTIFICADOR_NACIONAL" id="1E993D77-C920-3379-0DBD-7628CA5E24B7">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:50:27 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRES" id="AD4C740B-039B-20C4-FFD5-18125D147EEE">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:50:43 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="C457D9D5-F626-DAF5-199D-87F2E053BD22">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:52:06 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="D69878C4-AB29-92F3-0650-85099D930136">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:52:38 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="BCD0C747-5C15-11BE-0857-E449BA11E36F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:52:49 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="29AFC242-7711-0245-6D23-9569EFF6BD4C">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:53:03 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PAIS" id="4C3F6C62-8BA6-B47B-5302-5773070A8048">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:07:07 UTC</createdTime>
+<generatorID>BECCE1DF-5945-2748-F3C0-B35FE93585F2</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<referedAttribute>6F171546-4973-E05A-7B4E-6529091B6129</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="36312ACE-D780-9720-5859-3AFB480B1B06" name="PERSONA PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:53:28 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E80CB2E2-210B-7AD2-A167-9FDE9E242F79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

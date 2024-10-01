@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="81F6A705-811F-797C-E357-AE8C9575660A">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:44:46 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

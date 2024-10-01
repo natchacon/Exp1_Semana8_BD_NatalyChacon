@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGION_COMUNA" directorySegmentName="seg_0" id="44617958-CB6E-D488-D6FF-312921EC50FF">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:20:00 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<sourcePk>FCF5A348-0B5F-145C-4BE6-7B5963048582</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FFFF927B-C934-E400-B052-23DEA3CA863F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F4F81422-86C7-CE92-3B53-3A4888C66E48</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

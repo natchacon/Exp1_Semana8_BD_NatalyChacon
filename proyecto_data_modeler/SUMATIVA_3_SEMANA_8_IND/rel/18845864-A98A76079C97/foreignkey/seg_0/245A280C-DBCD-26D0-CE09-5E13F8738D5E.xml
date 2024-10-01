@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="245A280C-DBCD-26D0-CE09-5E13F8738D5E" containerWithKeyObject="697AC68F-B5F8-7E41-A37C-4F656B699A76" localFKIndex="CD8905AB-B17A-7B1A-14F8-FCC35B982C1E" name="INSUMO_TIPO_EQUIPAMIENTO_TIPO_INSUMO_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>4B01832D-5D89-BA9C-2563-E3BDB2006ABF</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<referredTableLongName>TIPO_INSUMO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DD5A9BE-9B1F-ED11-DDF0-41C4CB9D6CFB</referredTableID>
+<keyObject>6DB93ABA-AEB6-3795-2BAE-A79C53B5F1FD</keyObject>
+<referredKeyID>6DB93ABA-AEB6-3795-2BAE-A79C53B5F1FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPO_INSUMO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

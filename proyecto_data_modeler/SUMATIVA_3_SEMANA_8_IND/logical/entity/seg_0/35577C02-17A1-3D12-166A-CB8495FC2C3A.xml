@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35577C02-17A1-3D12-166A-CB8495FC2C3A" name="REMUNERACIONES">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:40:27 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="AGNO" id="AD8CF8AF-ABBF-F26D-C43E-175C532C2D4B">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:40:43 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MES" id="80B4D80C-B077-349F-75FA-5E10449B6931">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:40:59 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SUELDO_PAGADO" id="5CF69C13-CC50-C68D-DEDB-E19D2CCEF2EA">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:41:21 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESCUELA" id="6408B743-5110-3847-0476-E7D4E0CFE866">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:43:26 UTC</createdTime>
+<generatorID>717B0877-2467-FB45-B6D7-D4CF55021449</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<referedAttribute>80D837E6-5D3D-E1D9-B6B4-ECCDD5107BAF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PERSONA" id="C5DCC2A8-6883-33E4-C214-25F6AE27E851">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:43:26 UTC</createdTime>
+<generatorID>717B0877-2467-FB45-B6D7-D4CF55021449</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<referedAttribute>AC3F21CB-4FE9-AA7E-C78F-55D51A902336</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="73D14534-A82B-7B6D-8775-6C6EF8A61A97" name="REMUNERACIONES PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:41:10 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80B4D80C-B077-349F-75FA-5E10449B6931</attributeRef>
+<attributeRef>AD8CF8AF-ABBF-F26D-C43E-175C532C2D4B</attributeRef>
+<attributeRef>6408B743-5110-3847-0476-E7D4E0CFE866</attributeRef>
+<attributeRef>C5DCC2A8-6883-33E4-C214-25F6AE27E851</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

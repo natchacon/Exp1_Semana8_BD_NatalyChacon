@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SUMATIVA_3_SEMANA_8_IND" id="034313F7-9343-8D92-2E51-EB5DBF99A756" version="3.5">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:44:45 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>034313F7-9343-8D92-2E51-EB5DBF99A756</designId>
+</OSDM_Design>

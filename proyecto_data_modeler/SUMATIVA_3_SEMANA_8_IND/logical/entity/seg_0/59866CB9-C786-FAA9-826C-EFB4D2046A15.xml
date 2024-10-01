@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59866CB9-C786-FAA9-826C-EFB4D2046A15" name="PERSONAL">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:38:33 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="FECHA_CONTRATACION" id="F1651FC4-4C88-936D-576E-D42EF3200EE0">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:38:45 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_DESVINCULACION" id="C58DCF75-9DB2-ACC7-672D-0AFC6F00996B">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:39:03 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO" id="4E9A5AFF-96CB-B7DA-4F0F-3527E9D12C7F">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:39:18 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESCUELA" id="80D837E6-5D3D-E1D9-B6B4-ECCDD5107BAF">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:42:42 UTC</createdTime>
+<generatorID>FCCAA098-97D0-0FFF-5562-CAEB60869868</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<referedAttribute>B1713D23-C226-A278-B4D0-D18DD6A7A59A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PERSONA" id="AC3F21CB-4FE9-AA7E-C78F-55D51A902336">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:42:58 UTC</createdTime>
+<generatorID>131938DF-63C2-DDE9-8F27-5B04733C8CD0</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<referedAttribute>E80CB2E2-210B-7AD2-A167-9FDE9E242F79</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDD94E6D-22D8-45D6-E332-61913E3E5FC1" name="PERSONAL PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:42:42 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>80D837E6-5D3D-E1D9-B6B4-ECCDD5107BAF</attributeRef>
+<attributeRef>AC3F21CB-4FE9-AA7E-C78F-55D51A902336</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

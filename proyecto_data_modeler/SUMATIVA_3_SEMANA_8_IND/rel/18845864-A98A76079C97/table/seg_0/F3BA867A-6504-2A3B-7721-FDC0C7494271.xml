@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3BA867A-6504-2A3B-7721-FDC0C7494271" name="DEPORTES_ESCUELA">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESCUELA_DEPORTIVA_ID_ESCUELA" id="4D4BB75D-183A-E636-63B2-D56A6AC4A158">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA7699C1-F2E4-4DE9-DA05-8E6165C3CD64" referredColumn="ACF8B92E-AC03-CC0D-E2A5-EA6315E29E98"/>
+</associations>
+</Column>
+<Column name="DEPORTE_ID_DEPORTE" id="E46D49E4-3BDB-1FEF-5B9A-F0D0D5759F1A">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>10</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BD191BA-63E2-93E8-40D6-2220B3573DF0" referredColumn="80B1920F-2A68-6069-4CE4-0C30F3EFF68D"/>
+</associations>
+</Column>
+<Column name="ESTADO" id="5491D1FE-DEFC-FA0A-2E2D-82E127349F56">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>58FDA3C0-92BE-9CB6-3B02-AB2303E3A728</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C1B15927-87D5-E59B-DC45-BC8448FD428B" name="DEPORTES_ESCUELA_PK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D4BB75D-183A-E636-63B2-D56A6AC4A158"/>
+<colUsage columnID="E46D49E4-3BDB-1FEF-5B9A-F0D0D5759F1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="454A2072-9261-1A56-9CC3-204504AE01E0" name="DEPORTES_ESCUELA_ESCUELA_DEPORTIVA_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>2B333B50-980A-A861-B425-2213D256D75F</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D4BB75D-183A-E636-63B2-D56A6AC4A158"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="305E06FA-9E48-5A1F-9829-30FEE69BB4D0" name="DEPORTES_ESCUELA_DEPORTE_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>2B333B50-980A-A861-B425-2213D256D75F</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E46D49E4-3BDB-1FEF-5B9A-F0D0D5759F1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

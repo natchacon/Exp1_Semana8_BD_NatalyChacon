@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DF1B1E4B-A709-92B6-C377-A36FBD9082EB" mainViewID="5C054832-0CFD-7573-B179-D6B3D453334A">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 22:44:45 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

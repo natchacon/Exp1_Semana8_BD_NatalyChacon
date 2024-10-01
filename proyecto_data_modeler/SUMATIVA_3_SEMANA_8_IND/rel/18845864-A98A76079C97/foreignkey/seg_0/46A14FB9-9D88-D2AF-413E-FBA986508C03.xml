@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="46A14FB9-9D88-D2AF-413E-FBA986508C03" containerWithKeyObject="D6D76A54-230B-E5EE-7673-5E037FA9F7E9" localFKIndex="26E1EBBF-2D7E-0BD6-27BA-D5FBEA31C31F" name="PERSONAL_ESCUELA_DEPORTIVA_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>FCCAA098-97D0-0FFF-5562-CAEB60869868</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<referredTableLongName>ESCUELA_DEPORTIVA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B78001A-8F7A-6307-010A-E002526E5123</referredTableID>
+<keyObject>DE62834F-C2B4-DE08-EF6C-0632F81DA76F</keyObject>
+<referredKeyID>DE62834F-C2B4-DE08-EF6C-0632F81DA76F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESCUELA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78EE76C9-7AFC-6863-63F5-E0338897F645" containerWithKeyObject="D6D76A54-230B-E5EE-7673-5E037FA9F7E9" localFKIndex="E6401E2D-A3EA-AC9F-DD03-4AFF53423E27" name="PERSONAL_PERSONA_FK">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:47:57 UTC</createdTime>
+<generatorID>131938DF-63C2-DDE9-8F27-5B04733C8CD0</generatorID>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<referredTableLongName>PERSONA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>070413E5-2E4E-7E3D-6046-B33F3D811266</referredTableID>
+<keyObject>67112B42-CD15-F776-FFCE-EC3424CD0419</keyObject>
+<referredKeyID>67112B42-CD15-F776-FFCE-EC3424CD0419</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PERSONA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

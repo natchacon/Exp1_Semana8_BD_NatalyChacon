@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="INSUMO_EQUIPAMIENTO" directorySegmentName="seg_0" id="D29CBF6C-3932-D7BE-8CE0-C6DAE0AC97E0">
+<createdBy>sbravo</createdBy>
+<createdTime>2024-09-30 23:33:34 UTC</createdTime>
+<ownerDesignName>SUMATIVA_3_SEMANA_8_IND</ownerDesignName>
+<engineerTo>
+<item key="18845864-83DA-0D0C-8F63-A98A76079C97" value="true"/>
+</engineerTo>
+<sourcePk>4D286C4F-4292-AAB4-7CA7-5720A4CCF52C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>48836153-C78B-95FE-6A9E-934E7D6B5C76</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C8DC4FE6-216D-0735-A346-5C60BB9763CC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
